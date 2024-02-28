@@ -16,6 +16,7 @@
 		22C23E362B872F28004FAACF /* AzPrefTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C23E352B872F28004FAACF /* AzPrefTests.swift */; };
 		22C23E402B872F28004FAACF /* AzPrefUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C23E3F2B872F28004FAACF /* AzPrefUITests.swift */; };
 		22C23E422B872F28004FAACF /* AzPrefUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C23E412B872F28004FAACF /* AzPrefUITestsLaunchTests.swift */; };
+		22C23E582B8730E6004FAACF /* VIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C23E572B8730E6004FAACF /* VIewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		22C23E3B2B872F28004FAACF /* AzPrefUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzPrefUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22C23E3F2B872F28004FAACF /* AzPrefUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzPrefUITests.swift; sourceTree = "<group>"; };
 		22C23E412B872F28004FAACF /* AzPrefUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzPrefUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22C23E572B8730E6004FAACF /* VIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,10 @@
 		22C23E1D2B872F27004FAACF /* AzPref */ = {
 			isa = PBXGroup;
 			children = (
+				22C23E562B87309E004FAACF /* common */,
+				22C23E552B873071004FAACF /* mainscreen */,
+				22C23E542B873063004FAACF /* base */,
+				22C23E532B873056004FAACF /* features */,
 				22C23E1E2B872F27004FAACF /* AppDelegate.swift */,
 				22C23E202B872F27004FAACF /* SceneDelegate.swift */,
 				22C23E222B872F27004FAACF /* ViewController.swift */,
@@ -125,6 +131,35 @@
 				22C23E412B872F28004FAACF /* AzPrefUITestsLaunchTests.swift */,
 			);
 			path = AzPrefUITests;
+			sourceTree = "<group>";
+		};
+		22C23E532B873056004FAACF /* features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		22C23E542B873063004FAACF /* base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		22C23E552B873071004FAACF /* mainscreen */ = {
+			isa = PBXGroup;
+			children = (
+				22C23E572B8730E6004FAACF /* VIewController.swift */,
+			);
+			path = mainscreen;
+			sourceTree = "<group>";
+		};
+		22C23E562B87309E004FAACF /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +295,7 @@
 			files = (
 				22C23E232B872F27004FAACF /* ViewController.swift in Sources */,
 				22C23E1F2B872F27004FAACF /* AppDelegate.swift in Sources */,
+				22C23E582B8730E6004FAACF /* VIewController.swift in Sources */,
 				22C23E212B872F27004FAACF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
